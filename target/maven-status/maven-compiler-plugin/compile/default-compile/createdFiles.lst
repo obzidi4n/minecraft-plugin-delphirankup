@@ -1,0 +1,7 @@
+net/delphicraft/delphi_rankup/DatabaseListener.class
+net/delphicraft/delphi_rankup/DatabaseTask.class
+net/delphicraft/delphi_rankup/RankupListener.class
+net/delphicraft/delphi_rankup/Rankup.class
+net/delphicraft/delphi_rankup/RankupTask.class
+net/delphicraft/delphi_rankup/Binder.class
+net/delphicraft/delphi_rankup/CommandKit.class

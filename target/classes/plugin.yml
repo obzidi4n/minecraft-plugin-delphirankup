@@ -1,0 +1,9 @@
+main: net.delphicraft.delphi_rankup.Rankup
+name: delphi_rankup
+version: '0.1'
+author: obzidi4n
+api-version: '1.14'
+commands:
+  kit:
+    description: kit command
+    usage: /kit

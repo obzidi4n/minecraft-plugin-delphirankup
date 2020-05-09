@@ -1,0 +1,32 @@
+# delphi_rankups
+check_interval: 2
+database:
+  host: localhost
+  port: 3306
+  database: delphi_rankups
+  username: uroot
+  password:
+commands:
+  rankup:
+    - broadcast %player% ranked up to %newrank%
+  rankdown:
+    - broadcast %player% ranked down to %newrank%
+ranks:
+  Xenos:
+    rank: 1
+    requirements:
+#      items:
+      playtime: 1
+#      money:
+#      votes:
+    commands:
+      - give %player% diamond 1
+  Helot:
+    rank: 2
+    requirements:
+#      items:
+      playtime: 5
+#      money:
+#      votes:
+    commands:
+      - give %player% diamond 2
